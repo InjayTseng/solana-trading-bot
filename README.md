@@ -80,6 +80,7 @@ The bot will start monitoring Raydium pools and output information in the follow
 - `TAKE_LOSS_FDV`: FDV level for cutting losses
 - `CLUSTER_URL`: Solana cluster URL
 - `POOL_CHECK_INTERVAL`: Interval for checking new pools
+- `MIN_LIQ_TO_BUY`: Minimum pool liquidity required for buy signals (in USD)
 
 ## Development
 

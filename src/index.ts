@@ -1,14 +1,14 @@
 import { config } from 'dotenv';
 import { PoolMonitor } from './services/pool-monitor';
-import { logger } from './utils/logger';
+import logger from './utils/logger';
 
 // Load environment variables
 config();
 
 async function main() {
     try {
-        const poolMonitor = new PoolMonitor();
-        await poolMonitor.start();
+        const monitor = new PoolMonitor();
+        await monitor.start();
         
         logger.info('Bot started successfully');
         
